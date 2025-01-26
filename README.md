@@ -1,25 +1,29 @@
 # Memory-Card-Game
 
-This project is a variation of the classic memory card game implemented in Python. The game supports 2 or more players and uses a deck of 52 cards (spades, hearts, diamonds, clubs) with ranks 1-10 and face cards (J, Q, K). Players take turns flipping pairs of cards, earning points for matches based on predefined rules.
+This project implements a custom memory card game using a deck of cards, playable by 1 or more players. 
+The game is designed with varying difficulty levels and special rules to enhance the gameplay experience.
 
 Features:
 
-  Difficulty Levels:
-    Easy: 16 cards (only face cards and 10) arranged in a 4x4 grid.
-    Medium: 40 cards (numbers only) in a 4x10 grid.
+  Game Modes:
+    Easy: 16 cards (face cards and 10) in a 4x4 grid.
+    Medium: 40 cards (numbers 1–10) in a 4x10 grid.
     Hard: Full 52-card deck in a 4x13 grid.
     
-  Special Card Rules:
-    Two Jacks: Earn points and play again.
-    Two Kings: Earn points, and the next player skips their turn.
-    Queen + King: Flip a third card for bonus points if matches are found.
+  Special Rules:
+    Matching Jacks: Earn points and play again.
+    Matching Kings: Earn points; the next player skips their turn.
+    Queen + King: Option to flip a third card for extra points.
     
-  Bonus Mode: Option to score points for matching cards of the same suit.
+  Bonus Options:
+    Players can score for matching cards of the same suit.
+    
+  Single-Player Mode: Play against an AI opponent with a memory-based strategy using its last 5 moves.
   
-  User-Friendly Input Validation: Ensures valid moves and prevents errors like selecting already opened cards.
+  Interactive Gameplay: Validates user input, prevents invalid moves, and ensures smooth play.
   
-  Interactive Display: Cards initially revealed for easy memorization before starting the game.
+  Dynamic Visualization: All cards are revealed briefly at the start for memorization.
   
-Enjoy testing your memory and strategy in this enhanced multiplayer card game!
+A strategic and fun game designed to test memory and decision-making!
 
 I recommend you to use Python IDLE and type playgame().
